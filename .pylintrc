@@ -1,0 +1,9 @@
+[REPORTS]
+output-format=colorized
+score=no
+
+[FORMAT]
+max-line-length=160
+
+[MASTER]
+init-hook='import sys; sys.path.insert(0, "packages")'

@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 160
+max-complexity = 15
+exclude =
+    .git,
+    __pycache__,
+    docs
+inline-quotes = "
+extend-ignore = CCR001, D401, I201
