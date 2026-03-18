@@ -1,0 +1,12 @@
+---
+extends: default
+
+rules:
+  line-length: disable
+  comments: disable
+  colons:
+    max-spaces-after: -1
+  empty-lines:
+    max: 1
+  indentation:
+    indent-sequences: whatever
